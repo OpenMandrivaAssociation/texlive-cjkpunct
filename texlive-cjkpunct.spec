@@ -1,5 +1,11 @@
+# revision 15878
+# category Package
+# catalog-ctan /language/chinese/cjkpunct
+# catalog-date 2009-11-09 14:16:05 +0100
+# catalog-license lppl
+# catalog-version 4.8.1-2
 Name:		texlive-cjkpunct
-Version:	4.8.1.2
+Version:	4.8.1-2
 Release:	1
 Summary:	Adjust locations and kerning of CJK punctuation marks
 Group:		Publishing
@@ -48,6 +54,7 @@ The package serves as a companion package for CJK.
 %doc %{_texmfdistdir}/doc/latex/cjkpunct/setpunct/setpunct-main.tex
 #- source
 %doc %{_texmfdistdir}/source/latex/cjkpunct/CJKpunct.dtx
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -58,3 +65,5 @@ The package serves as a companion package for CJK.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
