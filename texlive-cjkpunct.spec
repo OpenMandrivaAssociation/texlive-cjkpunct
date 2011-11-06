@@ -5,7 +5,7 @@
 # catalog-license lppl
 # catalog-version 4.8.1-2
 Name:		texlive-cjkpunct
-Version:	4.8.1-2
+Version:	4.8.1.2
 Release:	1
 Summary:	Adjust locations and kerning of CJK punctuation marks
 Group:		Publishing
