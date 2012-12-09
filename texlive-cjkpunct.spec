@@ -55,3 +55,19 @@ The package serves as a companion package for CJK.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Tue Jan 03 2012 Paulo Andrade <pcpa@mandriva.com.br> 4.8.1.2-2
++ Revision: 750249
+- Rebuild to reduce used resources
+
+* Sun Nov 06 2011 Paulo Andrade <pcpa@mandriva.com.br> 4.8.1.2-1
++ Revision: 722997
+- texlive-cjkpunct
+- texlive-cjkpunct
+- texlive-cjkpunct
+- texlive-cjkpunct
+- texlive-cjkpunct
+- texlive-cjkpunct
+
