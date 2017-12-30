@@ -1,12 +1,6 @@
-# revision 15878
-# category Package
-# catalog-ctan /language/chinese/cjkpunct
-# catalog-date 2009-11-09 14:16:05 +0100
-# catalog-license lppl
-# catalog-version 4.8.1-2
 Name:		texlive-cjkpunct
-Version:	4.8.1.2
-Release:	10
+Version:	4.8.4
+Release:	1
 Summary:	Adjust locations and kerning of CJK punctuation marks
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/language/chinese/cjkpunct
@@ -32,19 +26,10 @@ The package serves as a companion package for CJK.
 
 #-----------------------------------------------------------------------
 %files
-%{_texmfdistdir}/tex/latex/cjkpunct/CJKpunct.sty
-%doc %{_texmfdistdir}/doc/latex/cjkpunct/CJKpunct.pdf
-%doc %{_texmfdistdir}/doc/latex/cjkpunct/CJKpunct.spa
-%doc %{_texmfdistdir}/doc/latex/cjkpunct/README
-%doc %{_texmfdistdir}/doc/latex/cjkpunct/README.zh-cn.txt
-%doc %{_texmfdistdir}/doc/latex/cjkpunct/examples/example-CJKfntef.tex
-%doc %{_texmfdistdir}/doc/latex/cjkpunct/examples/example-gb.tex
-%doc %{_texmfdistdir}/doc/latex/cjkpunct/examples/example-gbk.tex
-%doc %{_texmfdistdir}/doc/latex/cjkpunct/examples/example-utf8.tex
-%doc %{_texmfdistdir}/doc/latex/cjkpunct/setpunct/setpunct-macros.tex
-%doc %{_texmfdistdir}/doc/latex/cjkpunct/setpunct/setpunct-main.tex
+%{_texmfdistdir}/tex/latex/cjkpunct
+%doc %{_texmfdistdir}/doc/latex/cjkpunct
 #- source
-%doc %{_texmfdistdir}/source/latex/cjkpunct/CJKpunct.dtx
+%doc %{_texmfdistdir}/source/latex/cjkpunct
 
 #-----------------------------------------------------------------------
 %prep
@@ -55,19 +40,3 @@ The package serves as a companion package for CJK.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Tue Jan 03 2012 Paulo Andrade <pcpa@mandriva.com.br> 4.8.1.2-2
-+ Revision: 750249
-- Rebuild to reduce used resources
-
-* Sun Nov 06 2011 Paulo Andrade <pcpa@mandriva.com.br> 4.8.1.2-1
-+ Revision: 722997
-- texlive-cjkpunct
-- texlive-cjkpunct
-- texlive-cjkpunct
-- texlive-cjkpunct
-- texlive-cjkpunct
-- texlive-cjkpunct
-
