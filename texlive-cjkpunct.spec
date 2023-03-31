@@ -1,6 +1,6 @@
 Name:		texlive-cjkpunct
 Version:	41119
-Release:	1
+Release:	2
 Summary:	Adjust locations and kerning of CJK punctuation marks
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/language/chinese/cjkpunct
