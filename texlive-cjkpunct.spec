@@ -3,7 +3,7 @@ Version:	41119
 Release:	2
 Summary:	Adjust locations and kerning of CJK punctuation marks
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/language/chinese/cjkpunct
+URL:		https://www.ctan.org/tex-archive/language/chinese/cjkpunct
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/cjkpunct.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/cjkpunct.doc.r%{version}.tar.xz
